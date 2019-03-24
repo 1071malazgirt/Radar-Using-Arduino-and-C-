@@ -12,7 +12,7 @@ int adim=0;
 void setup() {
   pinMode(trigPin,OUTPUT);
   pinMode(echoPin,INPUT);
-  myStepper.setSpeed(1000);
+  myStepper.setSpeed(255);
   Serial.begin(9600);
 
 }
